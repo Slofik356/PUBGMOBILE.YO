@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PUBG Mobile</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            width: 100%;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #000000, #434343); /* Темный переливающийся фон */
+            color: #fff;
+        }
+        .header {
+            background-color: rgba(0, 0, 0, 0.8);
+            padding: 20px;
+            text-align: center;
+        }
+        .banner {
+            width: 100%;
+            height: 300px;
+            text-align: center;
+            color: #fff;
+            background-color: rgba(0, 0, 0, 0.8); /* Устанавливаем фон для баннера */
+        }
+        .banner img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            filter: brightness(1.0) contrast(1.2); /* Увеличение яркости и контрастности */
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.8);
+            border-radius: 10px;
+        }
+        .download-buttons {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+        }
+        .download-buttons a {
+            display: block;
+            width: 150px;
+            height: 50px;
+        }
+        .download-buttons img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .staff {
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .staff-member {
+            flex: 1;
+            margin: 10px;
+            text-align: center;
+        }
+        .staff-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+        }
+        .donation {
+            margin-top: 20px;
+        }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.8);
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>PUBG Mobile</h1>
+    </div>
+    <div class="container">
+        <div class="banner">
+            <img src="images/banner.jpg" alt="PUBG Mobile Banner"> <!-- Убедитесь, что путь к изображению правильный -->
+        </div>
+        <h2>О игре</h2>
+        <p>PUBG Mobile (PlayerUnknown's Battlegrounds) – это популярная многопользовательская игра в жанре королевской битвы, разработанная компанией Tencent Games (разработчики ниже). Игроки высаживаются на остров, где они должны находить оружие и снаряжение, чтобы сражаться друг с другом. Цель игры – остаться последним выжившим. Игра включает разнообразные режимы и карты, а также возможность играть в командах, что делает каждую сессию уникальной и захватывающей. PUBG Mobile постоянно обновляется, добавляя новый контент и улучшения, чтобы поддерживать интерес игроков.</p>
+        
+        <h2>Скачать игру</h2>
+        <div class="download-buttons">
+            <a href="https://play.google.com/store/apps/details?id=com.tencent.ig" target="_blank">
+                <img src="images/google_play.png" alt="Скачать на Google Play"> <!-- Замените на путь к изображению логотипа Google Play -->
+            </a>
+            <a href="https://apps.apple.com/app/pubg-mobile/id1330123889" target="_blank">
+                <img src="images/app_store.png" alt="Скачать на App Store"> <!-- Замените на путь к изображению логотипа App Store -->
+            </a>
+        </div>
+        <h2>Наша команда</h2>
+        <div class="staff">
+            <div class="staff-member">
+                <img src="images/egor_podvohov.jpg" alt="Егор Подвохов">
+                <p>Главный по отмыву денег: Егор Подвохов</p>
+            </div>
+            <div class="staff-member">
+                <img src="images/petushkov_kirill.jpg" alt="Петушков Кирилл">
+                <p>Главный микроб: Петушков Кирилл</p>
+            </div>
+            <div class="staff-member">
+                <img src="images/robert_moneywashing.jpg" alt="ООО Отмыв денег Роберт">
+                <p>Разработчик: ООО Отмыв денег Роберт</п>
+            </div>
+            <div class="staff-member">
+                <img src="images/ilya_panos.jpg" alt="Панос Илья">
+                <p>Киберкпонос: Панос Илья</p>
+            </div>
+        </div>
+        <h2>PUBG MOBILE</h2>
+        <div>
+            <img src="images/pubg_image1.jpg" alt="PUBG Image 1">
+            <img src="images/pubg_image2.jpg" alt="PUBG Image 2">
+            <!-- Добавьте столько изображений, сколько нужно -->
+        </div>
+        <h2>Донат</h2>
+        <div class="donation">
+            <p>60 Юс - $1</п>
+            <p>120 Юс - $2</п>
+            <p>300 Юс - $5</п>
+            <p>1000 Юс - $15</п>
+            <p>5000 Юс - $55</п>
+            <p>10000 Юс - $99</п>
+        </div>
+    </div>
+    <div class="footer">
+        <п>&copy; 2025 PUBG Mobile. Все права защищены (это не точно).</п>
+    </div>
+</body>
+</html>
